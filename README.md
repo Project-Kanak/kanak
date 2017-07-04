@@ -163,7 +163,7 @@ application.
 
 * The resulting executables can be found in `build/release/bin`
 
-## Running monerod
+## Running kanakd
 
 The build places the binary in `bin/` sub-directory within the build directory
 from which cmake was invoked (repository root by default). To run in
