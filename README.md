@@ -33,7 +33,7 @@ Kanak development can be supported directly through donations.
 
 
 
-The Kanak donation adress is: ``
+The Kanak donation adress is: `KjRFSKpPXW4iSmzcAMbhPLhxt2sasX2jNV8s3igzbB26ZiAYYkE7nKVMSaakUjZvvmY4HxQDQRDTzeSBpnGyStg95jV5zst`
 
 The Bitcoin donation address is: `1KznGrhJqsboRqg3K397wVXvogQJn5YuU5`
 
