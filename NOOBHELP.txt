@@ -1,0 +1,78 @@
+Kanak Help. (For Noobs)
+
+Before getting started I am gonna tell you that I highly recommend using Linux as your OS.
+
+1) Getting started.
+
+   i) Download compiled kanak daemons for Linux from `https://github.com/Project-Kanak/kanak/releases/download/v1.0/kanak.tar.gz` directly or by running following command on your terminal
+     
+    wget https://github.com/Project-Kanak/kanak/releases/download/v1.0/kanak.tra.gz
+
+  ii) If you download the compiled daemons from browser, simply go to the folder where the compressed file is downloaded right click on it and click extract here 
+
+If you followed i) then after typing the command and hitting enter wait untill process is complete and shell prompt ($) appears again.
+Then run the following command on your terminal
+
+    tar -xvzf kanak.tar.gz 
+
+2)Synchronising with network
+
+  After you download and extract the files, open the folder they are in ie, kanak
+  right click in the empty space and click open in terminal and type following command in the resulting terminal
+
+  ./kanakd
+
+after typing the command and hitting enter leave this window open. Depending on your speed, blockchain synchronisation will take few minutes
+when it shows the message "You are now synchronized with the network. You may now start simplewallet." mininmise the terminal window.
+
+3)Creating the wallet
+
+Open the terminal window like you did in step two ie, open the folder kanak
+  right click in the empty space and click open in terminal and type following command in the resulting terminal
+
+  ./simplewallet
+
+it will show this message
+"
+ 2017-Jul-08 18:14:47.966107 INFO    kanak wallet v2.0.6.1236 ()
+Nor 'generate-new-wallet' neither 'wallet-file' argument was specified.
+What do you want to do?
+[O]pen existing wallet, [G]enerate new wallet file or [E]xit."
+
+obviously type g and hit enter
+it will say "Specify wallet file name (wallet.bin)"  NOTE: .bin is not a filename extension, you can name your wallet as mywallet and hit enter
+so type your desired wallet name and hit enter
+It will ask for password; so enter the password WHICH YOU CAN REMEMBER because everytime you wanna access the wallet, it will ask for wallet name and password. hit enter and it will give your wallet adress, your wallet address will also be in kanak folder in wallet.address file
+
+4)Mining 
+
+Mining is what keeps kanak network up and running and confirms the transactions and miners get paid for it.
+As done in step two open the folder kanak
+  right click in the empty space and click open in terminal and type following command in the resulting terminal
+
+  ./miner --address "YOUR WALLET ADRESS"
+
+Eg- if your wallet address is Kj412wmMBnLHKFHGUwPcmKE33a1PPPT7Z7HqSnhTLyDAAYuDNWKLLmh9umSrV4uGKtLySZaa4KrtSBJ2mY73WF2o1r8D1SU
+  then you in terminal you will type, 
+   
+  ./miner --address Kj412wmMBnLHKFHGUwPcmKE33a1PPPT7Z7HqSnhTLyDAAYuDNWKLLmh9umSrV4uGKtLySZaa4KrtSBJ2mY73WF2o1r8D1SU
+
+
+NOTE: dont freak out, you dont have to type all that terminal allows copy and pasting but you have to do sao by selecting waht you want to copy, right click, then click copy the go where you wanna paste and right click, and then click paste.
+
+
+
+If you need anymore help with commands run the daemons with --help option Eg- ./simplewallet --help
+
+
+
+
+
+
+
+
+
+
+  
+
+
