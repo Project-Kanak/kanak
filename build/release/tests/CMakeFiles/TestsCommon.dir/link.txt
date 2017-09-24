@@ -1,0 +1,2 @@
+gcc-ar qc libTestsCommon.a  CMakeFiles/TestsCommon.dir/Common/VectorMainChainStorage.cpp.o
+gcc-ranlib libTestsCommon.a
